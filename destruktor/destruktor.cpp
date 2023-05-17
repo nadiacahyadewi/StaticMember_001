@@ -31,3 +31,11 @@ void angka::cetakData() {
 	}
 	cout<<endl;
 }
+
+int main() {
+	angka belajarcpp(3); //consructor Dipanggil
+	angka* ptrBelajarcpp = new angka(5); //Constructor Dipanggil
+	delete ptrBelajarcpp; //Destructor Dipanggil
+
+	return 0;
+}//Destructor Dipanggil
